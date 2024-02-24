@@ -21,7 +21,7 @@ const DashSidebar = () => {
         <Sidebar.ItemGroup>
           <Link to="/dashboard?tab=profile">
             <Sidebar.Item
-              activ={tab === 'profile'}
+              active={tab === 'profile'}
               icon={HiUser}
               label={'User'}
               labelColor="dark"
